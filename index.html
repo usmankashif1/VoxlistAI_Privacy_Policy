@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Privacy Policy for Voxlist AI mobile application." />
+  <title>Privacy Policy — Voxlist AI</title>
+  <style>
+    :root {
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-subtle: #f1f5f9;
+      --bg-accent-soft: #eef2ff;
+      --border-color: #e2e8f0;
+      --border-accent: #c7d2fe;
+      --text-primary: #0f172a;
+      --text-secondary: #334155;
+      --text-muted: #64748b;
+      --accent: #4f46e5;
+      --accent-dark: #3730a3;
+      --success-bg: #ecfdf5;
+      --success-border: #a7f3d0;
+      --success-text: #065f46;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-secondary);
+      line-height: 1.65;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrapper {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    header.policy-header {
+      background: linear-gradient(135deg, #1e1b4b 0%, #312e81 55%, #4338ca 100%);
+      color: #ffffff;
+      border-radius: 16px;
+      padding: 36px 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 25px -5px rgba(49, 46, 129, 0.2);
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      color: #e0e7ff;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 999px;
+      margin-bottom: 14px;
+    }
+
+    header.policy-header h1 {
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+
+    header.policy-header p.subtitle {
+      color: #c7d2fe;
+      font-size: 15px;
+      max-width: 620px;
+      margin-bottom: 18px;
+    }
+
+    .meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 13px;
+      color: #e0e7ff;
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      padding-top: 14px;
+    }
+
+    .meta-bar span strong {
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 28px 30px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 .section-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: var(--bg-accent-soft);
+      color: var(--accent);
+      font-size: 14px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 12px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 10px 0 14px 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    li strong {
+      color: var(--text-primary);
+    }
+
+    .callout {
+      background: var(--bg-accent-soft);
+      border: 1px solid var(--border-accent);
+      border-left: 4px solid var(--accent);
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-top: 14px;
+      font-size: 15px;
+      color: var(--text-primary);
+    }
+
+    .callout-success {
+      background: var(--success-bg);
+      border: 1px solid var(--success-border);
+      border-left: 4px solid #10b981;
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-top: 14px;
+      color: var(--success-text);
+      font-size: 15px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin-top: 14px;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    th {
+      background: var(--bg-subtle);
+      color: var(--text-primary);
+      font-weight: 600;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border-color);
+      vertical-align: top;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    code {
+      background: var(--bg-subtle);
+      color: var(--accent-dark);
+      padding: 2px 6px;
+      border-radius: 5px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .contact-item {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+
+    .contact-item .label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .contact-item .value {
+      font-size: 15px;
+      color: var(--text-primary);
+      font-weight: 600;
+      word-break: break-word;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+      margin-top: 32px;
+    }
+
+    @media (max-width: 600px) {
+      header.policy-header {
+        padding: 26px 20px;
+      }
+      header.policy-header h1 {
+        font-size: 24px;
+      }
+      .card {
+        padding: 22px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="policy-header">
+      <div class="badge">Official Google Play Privacy Policy</div>
+      <h1>Privacy Policy for Voxlist AI</h1>
+      <p class="subtitle">
+        Transparency on how Voxlist AI (<code>voxlistai</code>) collects, processes, stores, and protects your voice notes, tasks, and account information.
+      </p>
+      <div class="meta-bar">
+        <span><strong>Effective Date:</strong> November 19, 2026</span>
+        <span><strong>Developer:</strong> Muhammad Usman Kashif</span>
+        <span><strong>App Package:</strong> voxlistai</span>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2><span class="section-num">1</span> Overview &amp; Scope</h2>
+      <p>
+        Muhammad Usman Kashif ("we," "our," or "us") built the <strong>Voxlist AI</strong> mobile application (package identifier: <code>voxlistai</code>) as a productivity and task-management tool. Voxlist AI enables users to speak naturally in any language or enter quick notes to generate structured English tasks with due dates, times, subtasks, and reminders.
+      </p>
+      <p>
+        This Privacy Policy explains what information is collected when you use Voxlist AI, how that information is used, the permissions requested on your Android device, and your rights to access or delete your data. By creating an account or using Voxlist AI, you agree to the practices described in this policy.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2><span class="section-num">2</span> Information We Collect</h2>
+      <p>We only collect data strictly necessary to deliver, maintain, and improve the core features of Voxlist AI:</p>
+
+      <h3>A. Account &amp; Authentication Information</h3>
+      <ul>
+        <li><strong>Sign-Up &amp; Login Details:</strong> When you register or sign in to your Voxlist AI account, we collect your email address and encrypted authentication credentials to secure your profile and synchronize your tasks.</li>
+      </ul>
+
+      <h3>B. Voice Recordings (Audio Data)</h3>
+      <ul>
+        <li><strong>User-Initiated Voice Notes:</strong> When you tap or hold the microphone button to speak a task in your preferred language, Voxlist AI records your audio clip and transmits it securely over an encrypted connection (HTTPS/TLS) for speech-to-text transcription and AI task extraction into English.</li>
+        <li><strong>No Background Recording:</strong> Voxlist AI never accesses your microphone in the background. Audio is captured strictly when you actively trigger voice input.</li>
+      </ul>
+
+      <h3>C. Tasks, Subtasks &amp; User Notes</h3>
+      <ul>
+        <li><strong>Task Content:</strong> Typed notes, AI-generated task titles, subtasks, scheduled dates and times, reminder preferences, completion status, and task categories (such as Overdue, Today, Tomorrow, Upcoming, and No Date).</li>
+        <li><strong>Local &amp; Cloud Storage:</strong> Tasks are stored locally on your device for fast access and synced securely with your account backend so your task list stays up to date.</li>
+      </ul>
+
+      <h3>D. AI Mistake Reports &amp; Feedback</h3>
+      <ul>
+        <li><strong>Optional Issue Reporting:</strong> If you use the <strong>Report AI Mistake</strong> feature inside the Settings screen, we collect the specific input text, generated task output, and any feedback description you choose to submit so we can diagnose and improve task extraction accuracy.</li>
+      </ul>
+
+      <h3>E. Device &amp; App Diagnostics</h3>
+      <ul>
+        <li><strong>Technical Logs:</strong> Basic non-personal diagnostic data such as device model, Android OS version, app version, and crash logs to maintain app stability and deliver scheduled task notifications reliably.</li>
+      </ul>
+
+      <div class="callout">
+        <strong>Zero Data Selling Guarantee:</strong> We do not sell, rent, or trade your personal information, voice recordings, or task lists to third parties, data brokers, or advertising networks.
+      </div>
+    </section>
+
+    <section class="card">
+      <h2><span class="section-num">3</span> Android App Permissions</h2>
+      <p>Voxlist AI requests only the minimum device permissions required for its features to function:</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Permission</th>
+              <th>Purpose in Voxlist AI</th>
+              <th>When It Is Used</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><code>RECORD_AUDIO</code><br />(Microphone)</td>
+              <td>Allows you to speak voice notes in any language to automatically generate English tasks.</td>
+              <td>Only while you actively press/hold the voice input control.</td>
+            </tr>
+            <tr>
+              <td><code>POST_NOTIFICATIONS</code> &amp; Alarms</td>
+              <td>Delivers timely reminders and alerts for tasks with scheduled dates and times.</td>
+              <td>When a task reminder you created or confirmed reaches its scheduled time.</td>
+            </tr>
+            <tr>
+              <td><code>INTERNET</code> &amp; Network State</td>
+              <td>Connects securely to speech-to-text AI services, authentication servers, and task sync.</td>
+              <td>During login, voice/text AI task generation, syncing, and submitting feedback reports.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2><span class="section-num">4</span> How We Use Your Information</h2>
+      <p>We process collected data solely for the following operational purposes:</p>
+      <ul>
+        <li><strong>Task Generation &amp; Translation:</strong> Converting multilingual voice recordings and unstructured text notes into clear, structured English tasks and subtasks.</li>
+        <li><strong>Reminders &amp; Organization:</strong> Categorizing tasks by schedule (Overdue, Today, Tomorrow, Upcoming, No Date) and triggering local or push notifications on time.</li>
+        <li><strong>Account Management:</strong> Authenticating your login sessions and preserving your tasks across app refreshes or device logins.</li>
+        <li><strong>Quality &amp; Reliability:</strong> Investigating AI parsing mistakes reported through Settings and fixing technical bugs or crashes.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="section-num">5</span> Third-Party Services &amp; AI Processing</h2>
+      <p>
+        To power fast voice transcription, natural-language task extraction, and secure cloud authentication/database storage, Voxlist AI relies on trusted third-party cloud infrastructure and AI API providers.
+      </p>
+      <ul>
+        <li><strong>Encrypted Transmission:</strong> All audio clips, text notes, and account requests are transmitted using industry-standard TLS/HTTPS encryption.</li>
+        <li><strong>Restricted Processing:</strong> Third-party service providers process data strictly on our behalf to perform the requested task-creation or authentication function and are prohibited from using your data for independent marketing or profiling.</li>
+        <li><strong>No Third-Party Ad SDKs:</strong> Voxlist AI does not embed invasive third-party behavioral advertising trackers.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="section-num">6</span> Data Retention &amp; Account Deletion</h2>
+      <p>
+        We retain your account profile and saved tasks only for as long as your account remains active or as needed to provide the service. Voice audio clips sent for transcription are processed transiently to generate text and are not permanently stored as public audio files.
+      </p>
+
+      <div class="callout-success">
+        <strong>How to Delete Your Account &amp; Data:</strong><br />
+        You have the right to request permanent deletion of your Voxlist AI account and all associated tasks, subtasks, and feedback records at any time:
+        <ul style="margin-top: 8px; margin-bottom: 0;">
+          <li><strong>Individual Tasks:</strong> You can delete any individual task or subtask directly inside the app at any time.</li>
+          <li><strong>Full Account Deletion:</strong> Send an email to <a href="mailto:usmankashifryk@gmail.com?subject=Account%20Deletion%20Request%20-%20Voxlist%20AI">usmankashifryk@gmail.com</a> from your registered email address with the subject line <strong>"Account Deletion Request - Voxlist AI"</strong>. Upon verification, we will permanently delete your account and associated server data within <strong>7 business days</strong>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2><span class="section-num">7</span> Data Security</h2>
+      <p>
+        We implement reasonable administrative, technical, and physical safeguards—including encrypted network transport (HTTPS/TLS), hashed/tokenized authentication, and scoped database access controls—to protect your data against unauthorized access, alteration, or loss. However, no digital transmission or electronic storage method is 100% infallible, and we encourage users to protect their login credentials.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2><span class="section-num">8</span> Children's Privacy</h2>
+      <p>
+        Voxlist AI is a general-audience productivity application and is not directed to children under the age of 13 (or the equivalent minimum age in your jurisdiction). We do not knowingly collect personal information from children under 13. If you believe a child has provided personal data through Voxlist AI, please contact us immediately so we can delete the information.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2><span class="section-num">9</span> Your Privacy Rights</h2>
+      <p>Depending on your region (including GDPR, CCPA/CPRA, and applicable local privacy laws), you have the right to:</p>
+      <ul>
+        <li>Access and review the personal data associated with your Voxlist AI account.</li>
+        <li>Edit or update your tasks and task details directly within the application.</li>
+        <li>Withdraw microphone or notification permissions at any time via your Android device's <strong>Settings &gt; Apps &gt; Voxlist AI &gt; Permissions</strong>.</li>
+        <li>Request complete deletion of your account and personal records.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="section-num">10</span> Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time as we introduce new features (such as password recovery or additional productivity tools) or adapt to regulatory updates. When changes are made, we will update the <strong>Effective Date</strong> at the top of this page. Continued use of Voxlist AI after updates indicates acceptance of the revised policy.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2><span class="section-num">11</span> Contact Us</h2>
+      <p>
+        If you have any questions, privacy concerns, or data deletion requests regarding <strong>Voxlist AI</strong>, please contact the developer directly:
+      </p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="label">Developer Name</div>
+          <div class="value">Muhammad Usman Kashif</div>
+        </div>
+        <div class="contact-item">
+          <div class="label">Support &amp; Privacy Email</div>
+          <div class="value"><a href="mailto:usmankashifryk@gmail.com">usmankashifryk@gmail.com</a></div>
+        </div>
+        <div class="contact-item">
+          <div class="label">Application</div>
+          <div class="value">Voxlist AI (<code>voxlistai</code>)</div>
+        </div>
+        <div class="contact-item">
+          <div class="label">Location</div>
+          <div class="value">Islamabad, Pakistan</div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 Muhammad Usman Kashif. All rights reserved. • Voxlist AI Privacy Policy
+    </footer>
+  </div>
+</body>
+</html>
